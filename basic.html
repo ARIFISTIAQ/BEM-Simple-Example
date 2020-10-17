@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Example</title>
+    <style>
+     html,body{
+         margin: 0;
+         height: 100vh;
+     }
+body{
+ display: grid;
+ 
+ place-content: center;
+ background-color: rgb(105, 170, 110);
+ 
+}
+.card{
+    padding: 0 5em;
+    
+    
+}
+
+.card__img{
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(39, 10, 66);
+
+}
+
+.card__content{
+    padding: 1.5em;
+    background-color: rgb(141, 108, 115);
+}
+
+.card__list{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.card__item{
+    background-color: darkgray;
+    padding: 0.3 em 0.5em;
+    margin-right: 0.5em;
+    border-radius: 0.3em;
+    font-size: 0.85em;
+
+}
+
+.card__link{
+    background-color: darkolivegreen;
+    color: wheat;
+    text-decoration: none ;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    display: inline-block;
+    margin-top: 0.5em ;
+    
+    
+}
+
+.card__link:hover{
+    background-color: whitesmoke;
+
+}
+
+
+
+</style>
+
+
+</head>
+<body>
+    
+<div class="card">
+    <span class="card__ ing"></span>
+    <div class="card__content"></div>
+    <ul class="card__list">
+        <li class="card__item">Home</li>
+        <li class="card__item">About</li>
+        <li class="card_-item">Contact</li>
+    </ul>
+    <p class="card_discription"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum alias velit modi deleniti possimus reprehenderit quia id est ad? Aliquid corrupti magnam aut repudiandae dolorum quam officia quia possimus excepturi.</p>
+    <a href="#" class="card__link">Visit This Link</a>
+</div></div>
+</body>
+</html>
